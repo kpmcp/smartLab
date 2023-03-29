@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="skip">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#57A9FF</item>
+    </style>
+    <style name="analyze">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#939396</item>
+    </style>
+    <style name="analyzeData">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#00B712</item>
+    </style>
+</resources>

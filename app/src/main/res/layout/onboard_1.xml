@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboard_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    tools:context=".MainActivity"
+    android:background="@drawable/onboard_1">
+
+    <!-- shape -->
+    <View
+        android:id="@+id/shape"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="499.89dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape"
+        />
+
+
+    <!-- Illustration -->
+    <View
+        android:id="@+id/illustratio"
+        android:layout_width="204dp"
+        android:layout_height="200.47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="502dp"
+        android:background="@drawable/illustration"
+        />
+
+<!--    &lt;!&ndash; Ellipse 58 &ndash;&gt;-->
+<!--    <View-->
+<!--        android:id="@+id/ellipse_58"-->
+<!--        android:layout_width="193.35dp"-->
+<!--        android:layout_height="181.66dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="90dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="509.43dp"-->
+<!--        android:background="@drawable/ellipse_58"-->
+<!--        />-->
+
+    <!-- Asset 5 1 -->
+
+
+
+    <TextView
+        android:id="@+id/skip_btn"
+        android:layout_width="112dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/skip"
+        android:clickable="true"
+        android:textAppearance="@style/skip"
+        android:gravity="top"
+        />
+
+
+
+    <!-- Group 3 -->
+    <View
+        android:id="@+id/group_3"
+        android:layout_width="207dp"
+        android:layout_height="73dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="249dp"
+        android:background="#00000000"></View>
+
+        <!-- Экспресс сбор и получение проб -->
+        <TextView
+            android:id="@+id/analyze"
+            android:layout_width="210dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="77dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="302dp"
+            android:text="@string/analyze"
+            android:textAppearance="@style/analyze"
+            android:lineSpacingExtra="3sp"
+            android:translationY="-1.65sp"
+            android:gravity="center_horizontal|top"
+            />
+        <!--
+        Font family: SF Pro Display
+        Line height: 20sp
+        (identical to box height)
+        translationY compensates for the line height adjustment of text
+        -->
+        <!-- Анализы -->
+        <TextView
+            android:id="@+id/analyzeData"
+            android:layout_width="90dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="139dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="249dp"
+            android:text="@string/analyzeData"
+            android:textAppearance="@style/analyzeData"
+            android:gravity="top"
+            />
+        <!--
+        Font family: Lato
+        Line height: 24sp
+        (identical to box height)
+        -->
+
+    <!-- Group 2 -->
+    <View
+        android:id="@+id/group_2"
+        android:layout_width="58dp"
+        android:layout_height="14.29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="159dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="382dp"
+        android:background="#00000000"
+
+        />
+
+    <!-- Ellipse 1 -->
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="12.61dp"
+        android:layout_height="12.61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="159dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="382.84dp"
+        android:background="@drawable/ellipse_1"
+        />
+
+    <!-- Ellipse 2 -->
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="14.29dp"
+        android:layout_height="14.29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="180.86dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="382dp"
+        android:background="@drawable/ellipse_2"
+        android:alpha="0.5"
+        />
+
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="14.29dp"
+        android:layout_height="14.29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="202.71dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="382dp"
+        android:background="@drawable/ellipse_3"
+        android:alpha="0.5"
+        />
+
+
+
+
+</RelativeLayout>
+
