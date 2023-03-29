@@ -5,33 +5,5 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
-    android:background="@drawable/logo">
-
-    <!-- bg -->
-    <View
-    android:id="@+id/bg"
-    android:layout_width="828dp"
-    android:layout_height="1265dp"
-    android:layout_alignParentLeft="true"
-    android:layout_marginLeft="-227dp"
-    android:layout_alignParentTop="true"
-    android:layout_marginTop="-251dp"
-    android:background="#00000000"
-        />
-
-    <!-- Logo -->
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/logo"
-        android:layout_width="263dp"
-        android:layout_height="47.77dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="56dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="334dp"
-        android:background="@drawable/logo_name"
-        />
-
-
-
-</RelativeLayout>
+    tools:context=".ShowLogo"
+    android:background="@drawable/splash" />
